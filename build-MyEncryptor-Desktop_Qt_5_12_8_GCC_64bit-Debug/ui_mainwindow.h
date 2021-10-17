@@ -118,6 +118,7 @@ public:
 
         textBrowser_2 = new QTextBrowser(centralwidget);
         textBrowser_2->setObjectName(QString::fromUtf8("textBrowser_2"));
+        textBrowser_2->setReadOnly(true);
 
         verticalLayout_2->addWidget(textBrowser_2);
 
